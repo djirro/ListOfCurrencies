@@ -14,15 +14,19 @@ struct Home: View {
         NavigationView {
             ScrollView {
                 VStack {
-                    ForEach(fetchDataVM.valueData) { id in
-                        Text(id.charCode)
-                    }
+//                    Text(fetchDataVM.charCode[0])
+//                    ForEach(0 ..< fetchDataVM.valueData.count) { vallet in
+//                        HStack {
+//                            Text(fetchDataVM.charCode[vallet])
+//                        }
+//                    }
                 }
             }
             .navigationTitle("List of Currencies")
         }
     }
 }
+
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
