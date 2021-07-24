@@ -8,41 +8,42 @@
 import Foundation
 
 class FetchDataVM: ObservableObject {
-    var fetchedData = [String: [String: String]]()
+    @Published var valueData = [Valute]()
+    @Published var name = [String]()
+    @Published var value = [String]()
+    @Published var charCode = [String]()
     
     init() {
         fetchCurrency()
     }
     
     func fetchCurrency() {
+        let decoder = JSONDecoder()
+        let session = URLSession.shared
         let urlString = "https://www.cbr-xml-daily.ru/daily_json.js"
-        let url = URL(string: urlString)
         
-        URLSession.shared.dataTask(with: url!) {data, _, error in
+        guard let url = URL(string: urlString) else {
+            print("Неверный формат ссылки")
+            return
+        }
+        
+        session.dataTask(with: url) { data, response, error in
+            if let data = data {
+                do {
+                    let decodedData = try decoder.decode(CurrencyModel.self, from: data)
+                    self.valueData = decodedData.valute.values.sorted{$0.charCode < $1.charCode}
+                } catch {
+                    print("Error! Something went wrong.")
+                }
+            } else {
+                print("Error: \(error?.localizedDescription ?? "Неизвестная ошибка")")
+            }
+            
             DispatchQueue.main.async {
-                if let data = data {
-                    do {
-                        let decoder = JSONDecoder()
-                        let decodedData = try decoder.decode(CurrencyModel.self, from: data)
-                        
-                        print(decodedData.charCode.values[$0])
-                        
-                        
-//                        print(decodedData.charCode)
-//                        for key in decodedData.charCode {
-//
-//
-//                                var valute = String(format: "%.2f", decodedData.charCode.values.valuee)
-//                                self.fetchedData.updateValue([Double : String], forKey: key)
-//
-//
-//                        }
-//
-                        
-
-                    } catch {
-                        print("Error! Something went wrong.")
-                    }
+                self.valueData.forEach { key in
+                    self.name.append(key.name)
+                    self.value.append(String(format: "%.2f", key.value))
+                    self.charCode.append(key.charCode)
                 }
             }
         }.resume()
