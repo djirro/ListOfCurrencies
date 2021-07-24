@@ -7,20 +7,25 @@
 
 import Foundation
 
+// MARK: - CurrencyModel
 struct CurrencyModel: Codable {
-    let charCode: [String: Valute]
-    
+    let valute: [String : Valute]
+
     enum CodingKeys: String, CodingKey {
-        case charCode = "Valute"
+        case valute = "Valute"
     }
 }
 
+// MARK: - Valute
 struct Valute: Codable {
-    let name: String
+    let charCode, name: String
     let value: Double
-    
+
     enum CodingKeys: String, CodingKey {
+        case charCode = "CharCode"
         case name = "Name"
         case value = "Value"
     }
 }
+
+

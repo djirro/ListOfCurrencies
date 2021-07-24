@@ -10,11 +10,14 @@ import SwiftUI
 struct Home: View {
     @ObservedObject var fetchDataVM = FetchDataVM()
     
-    
     var body: some View {
         NavigationView {
             ScrollView {
-                
+                VStack {
+                    ForEach(fetchDataVM.valueData) { id in
+                        Text(id.charCode)
+                    }
+                }
             }
             .navigationTitle("List of Currencies")
         }

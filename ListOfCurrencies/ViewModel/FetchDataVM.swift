@@ -8,7 +8,7 @@
 import Foundation
 
 class FetchDataVM: ObservableObject {
-    var fetchedData = [String: [String: String]]()
+    @Published var valueData = [Valute]()
     
     init() {
         fetchCurrency()
@@ -25,21 +25,9 @@ class FetchDataVM: ObservableObject {
                         let decoder = JSONDecoder()
                         let decodedData = try decoder.decode(CurrencyModel.self, from: data)
                         
-                        print(decodedData.charCode.values[$0])
-                        
-                        
-//                        print(decodedData.charCode)
-//                        for key in decodedData.charCode {
-//
-//
-//                                var valute = String(format: "%.2f", decodedData.charCode.values.valuee)
-//                                self.fetchedData.updateValue([Double : String], forKey: key)
-//
-//
-//                        }
-//
-                        
-
+                        //print(decodedData.valute)
+                        self.valueData = decodedData.valute.values.sorted{$0.charCode < $1.charCode}
+                        print(self.valueData)
                     } catch {
                         print("Error! Something went wrong.")
                     }
