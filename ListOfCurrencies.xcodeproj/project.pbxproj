@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87B4D17926AABAEB0083D452 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4D17826AABAEB0083D452 /* Test.swift */; };
 		87B4D17B26AADC950083D452 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4D17A26AADC950083D452 /* Models.swift */; };
 		87B4D18026AAE5200083D452 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4D17F26AAE5200083D452 /* Home.swift */; };
 		87B4D18226AAE7420083D452 /* FetchDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4D18126AAE7420083D452 /* FetchDataVM.swift */; };
 		87B4D18426AAF20E0083D452 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4D18326AAF20E0083D452 /* CurrencyModel.swift */; };
-		87B4D18626AB7D2F0083D452 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4D18526AB7D2F0083D452 /* Json.swift */; };
 		87F6F89B26A6B2EC00124813 /* ListOfCurrenciesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F6F89A26A6B2EC00124813 /* ListOfCurrenciesApp.swift */; };
 		87F6F89F26A6B2F000124813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F6F89E26A6B2F000124813 /* Assets.xcassets */; };
 		87F6F8A226A6B2F000124813 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F6F8A126A6B2F000124813 /* Preview Assets.xcassets */; };
@@ -39,12 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		87B4D17826AABAEB0083D452 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		87B4D17A26AADC950083D452 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		87B4D17F26AAE5200083D452 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		87B4D18126AAE7420083D452 /* FetchDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataVM.swift; sourceTree = "<group>"; };
 		87B4D18326AAF20E0083D452 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
-		87B4D18526AB7D2F0083D452 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		87F6F89726A6B2EC00124813 /* ListOfCurrencies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfCurrencies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F6F89A26A6B2EC00124813 /* ListOfCurrenciesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCurrenciesApp.swift; sourceTree = "<group>"; };
 		87F6F89E26A6B2F000124813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +107,6 @@
 		87F6F88E26A6B2EC00124813 = {
 			isa = PBXGroup;
 			children = (
-				87B4D18526AB7D2F0083D452 /* Json.swift */,
 				87F6F89926A6B2EC00124813 /* ListOfCurrencies */,
 				87F6F8AB26A6B2F000124813 /* ListOfCurrenciesTests */,
 				87F6F8B626A6B2F100124813 /* ListOfCurrenciesUITests */,
@@ -141,7 +136,6 @@
 				87F6F8A326A6B2F000124813 /* Info.plist */,
 				87F6F8A026A6B2F000124813 /* Preview Content */,
 				87F6F8C526A6BAFE00124813 /* LaunchScreen.storyboard */,
-				87B4D17826AABAEB0083D452 /* Test.swift */,
 			);
 			path = ListOfCurrencies;
 			sourceTree = "<group>";
@@ -303,12 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				87B4D18226AAE7420083D452 /* FetchDataVM.swift in Sources */,
-				87B4D17926AABAEB0083D452 /* Test.swift in Sources */,
 				87F6F89B26A6B2EC00124813 /* ListOfCurrenciesApp.swift in Sources */,
 				87B4D18026AAE5200083D452 /* Home.swift in Sources */,
 				87B4D17B26AADC950083D452 /* Models.swift in Sources */,
 				87B4D18426AAF20E0083D452 /* CurrencyModel.swift in Sources */,
-				87B4D18626AB7D2F0083D452 /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
