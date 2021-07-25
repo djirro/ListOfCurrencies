@@ -53,5 +53,20 @@ class FetchDataVM: ObservableObject {
        value = [String]()
        charCode = [String]()
     }
+    
+//    func createTimer() {
+//        _ = Timer.scheduledTimer(
+//            timeInterval: 5,
+//            target: self,
+//            selector: #selector(timerAction),
+//            userInfo: nil,
+//            repeats: true
+//        )
+//    }
+//
+//    @objc func timerAction() {
+//        print("timerAction")
+//        fetchCurrency()
+//    }
 }
 
