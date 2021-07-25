@@ -13,17 +13,40 @@ struct Home: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                VStack {
-//                    Text(fetchDataVM.charCode[0])
-//                    ForEach(0 ..< fetchDataVM.valueData.count) { vallet in
-//                        HStack {
-//                            Text(fetchDataVM.charCode[vallet])
-//                        }
-//                    }
+                if fetchDataVM.name.isEmpty {
+                    Text("empty")
+                } else {
+                    ForEach(0 ..< fetchDataVM.valueData.count) { id in
+                        HStack(alignment: .top) {
+                            VStack(alignment: .leading) {
+                                Text(fetchDataVM.charCode[id])
+                                    .font(.title)
+                                    .fontWeight(.medium)
+
+                                Text(fetchDataVM.name[id])
+                                    .font(.subheadline)
+                                    .lineLimit(8)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                            
+                            Spacer()
+                            
+                            Text(fetchDataVM.value[id])
+                                .font(.title)
+                                .fontWeight(.medium)
+                        }
+                        .frame(height: 50)
+                        .padding(EdgeInsets(top: 5, leading: 15, bottom: 5, trailing: 15))
+                    }
                 }
             }
             .navigationTitle("List of Currencies")
         }
+        .onAppear(perform: {
+            print("1. onAppear inside contentview")
+            fetchDataVM.fetchCurrency()
+            
+        })
     }
 }
 

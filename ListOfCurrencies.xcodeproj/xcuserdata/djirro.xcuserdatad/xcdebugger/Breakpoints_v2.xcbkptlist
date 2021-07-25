@@ -3,4 +3,257 @@
    uuid = "3068CBE6-0D6F-4582-8E34-9943600347C4"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ListOfCurrencies/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Home"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E - a9e46f9eda322ace"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ListOfCurrencies.Home.fetchDataVM : ListOfCurrencies.FetchDataVM"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E - 417141e7cb0c4bde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListOfCurrencies.Home.fetchDataVM.getter : ListOfCurrencies.FetchDataVM"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E - ec44e96559ee15d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListOfCurrencies.Home.fetchDataVM.setter : ListOfCurrencies.FetchDataVM"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E - 649b45ad91c7d6ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListOfCurrencies.Home.fetchDataVM.modify : ListOfCurrencies.FetchDataVM"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E - 4615a573846e8440"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListOfCurrencies.Home.fetchDataVM.modify : ListOfCurrencies.FetchDataVM with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E - ddd768696473e939"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListOfCurrencies.Home.$fetchDataVM.getter : SwiftUI.ObservedObject&lt;ListOfCurrencies.FetchDataVM&gt;.Wrapper"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "E2440B2D-A2B2-4CCF-9CC4-B75713A9F65E - c0bb353f2a740694"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListOfCurrencies.Home.init() -&gt; ListOfCurrencies.Home"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35E64A6C-FF81-431E-AC3B-F54E9D3C32D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ListOfCurrencies/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "35E64A6C-FF81-431E-AC3B-F54E9D3C32D1 - afb3d1a872f3f2a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ListOfCurrencies.Home.body.getter : some"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "35E64A6C-FF81-431E-AC3B-F54E9D3C32D1 - aa4b79528d5669c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in ListOfCurrencies.Home.body.getter : some"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BAEFF21-E1F1-4E1B-B299-53E8982FC0CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ListOfCurrencies/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59751BBD-E6A1-4076-9AF7-52D33CE8CE4D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ListOfCurrencies/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32626E17-05FB-4181-8C2B-5F1B83C22612"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ListOfCurrencies/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "32626E17-05FB-4181-8C2B-5F1B83C22612 - a09003d890dbb4ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.HStack&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in ListOfCurrencies.Home.body.getter : some"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "1430">
+               </Location>
+               <Location
+                  uuid = "32626E17-05FB-4181-8C2B-5F1B83C22612 - b438f69fd681f0b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; SwiftUI.VStack&lt;SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.HStack&lt;SwiftUI.VStack&lt;SwiftUI.Text&gt;&gt;&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in ListOfCurrencies.Home.body.getter : some"
+                  moduleName = "ListOfCurrencies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/djirro/Documents/myProjectsIOS/ListOfCurrencies/ListOfCurrencies/View/Home.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "97">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
