@@ -41,6 +41,14 @@ struct Home: View {
                 }
             }
             .navigationTitle("List of Currencies")
+            .toolbar {
+                Button(action: {
+                    fetchDataVM.reset()
+                    fetchDataVM.fetchCurrency()
+                }) {
+                    Image(systemName: "arrow.clockwise")
+                }
+            }
         }
         .onAppear(perform: {
             print("1. onAppear inside contentview")
