@@ -10,6 +10,9 @@ import SwiftUI
 struct Home: View {
     @ObservedObject var fetchDataVM = FetchDataVM()
     
+    @State private var timeRemaining = 30
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    
     var body: some View {
         NavigationView {
             ScrollView {
@@ -28,7 +31,6 @@ struct Home: View {
                                     .lineLimit(8)
                                     .fixedSize(horizontal: false, vertical: true)
                             }
-                            
                             Spacer()
                             
                             Text(fetchDataVM.value[id])
@@ -41,12 +43,31 @@ struct Home: View {
                 }
             }
             .navigationTitle("List of Currencies")
+            .toolbar {
+                Button(action: {
+                    fetchDataVM.reset()
+                    fetchDataVM.fetchCurrency()
+                    self.timeRemaining = 30
+                }) {
+                    Image(systemName: "arrow.clockwise")
+                }
+            }
         }
         .onAppear(perform: {
             print("1. onAppear inside contentview")
             fetchDataVM.fetchCurrency()
             
         })
+        .onReceive(timer) { time in
+            if self.timeRemaining > 0 {
+                self.timeRemaining -= 1
+                print(timeRemaining)
+            } else {
+                fetchDataVM.reset()
+                fetchDataVM.fetchCurrency()
+                self.timeRemaining = 30
+            }
+        }
     }
 }
 
