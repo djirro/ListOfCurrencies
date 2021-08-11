@@ -17,7 +17,7 @@ struct Home: View {
         NavigationView {
             ScrollView {
                 if fetchDataVM.name.isEmpty {
-                    Text("empty")
+                    Text("-empty")
                 } else {
                     ForEach(0 ..< fetchDataVM.valueData.count) { id in
                         HStack(alignment: .top) {
